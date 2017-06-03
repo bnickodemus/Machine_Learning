@@ -1,0 +1,19 @@
+#1 (2 pts): Python code to plot a list of integers, x?
+x = [ data**2 for data in range(100)]
+plt.plot(x)
+plt.show()
+
+#2 (2 pts): Python code to change the title of a plot to "TITLE"?
+plt.title('TITLE')
+
+#3 (2 pts): Python code to change a plot's axes to [-x,x], [-y,y]  ?
+plt.axis([-x,x,-y,y]) 
+
+#4 (2 pts): Python code to label the axes?
+plt.xlabel(‘x label’)
+plt.ylabel(‘y label’)
+
+#5 (2 pts): Python code to generate a histogram?
+data = [rdm.random() for _ in range(50000)]
+plt.hist(data)
+plt.show()
