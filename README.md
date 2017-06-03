@@ -1,5 +1,5 @@
 Machine Learning & Data Mining
 
-<p align="center">
-  <img src="./mach.png" width="350"/>
+<p align="left">
+  <img src="./mach.png" width="500" height="500"/>
 </p>
